@@ -15,7 +15,7 @@ public class Asistencia implements IAsistencia {
     public void registroAsistencia(int n, boolean[] asistencia){
         Scanner sc=new Scanner(System.in);
         for (int i = 0; i < n; i++) {
-            System.out.print("Ingrese la asistencia de la clase " + (i+1)+"1. asistio / 2.no asistio : ");
+            System.out.print("Ingrese la asistencia de la clase " + (i+1)+"  (1. asistio / 2.no asistio) : ");
             int op=sc.nextInt();
             if(op==1){
                 asistencia[i] = true;
@@ -26,3 +26,4 @@ public class Asistencia implements IAsistencia {
         }
     }
 }
+
