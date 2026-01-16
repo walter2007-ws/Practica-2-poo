@@ -16,6 +16,12 @@ public class Promedio_BonoAcademico {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*
+        En el presente se utilizaron dos principios SOLID
+        S- Single Responsability. Cada clase hace unicamente lo que dice
+        L- Liskov Substitution. Las clases pueden reemplazar a sus clases padre, en este caso a las intertfaces.
+        I- Interface Segregation. Todas las interfaces creadas son utilizadas por cada clase.
+        */
         Scanner sc=new Scanner(System.in);
         RegistroNotas registro= new RegistroNotas();
         ManejoNotas manejoNotas =new ManejoNotas();
@@ -40,3 +46,4 @@ public class Promedio_BonoAcademico {
     }
     
 }
+
