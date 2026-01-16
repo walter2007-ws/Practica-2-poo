@@ -27,9 +27,9 @@ public class ControlAsistencia {
         ValidacionMinAsistencia min =new ValidacionMinAsistencia();
         Reporte reporte=new Reporte();
         PorcentajeAsistencia porciento= new PorcentajeAsistencia();
-        System.out.println("Ingrese el nombre del estudiante: ");
+        System.out.print("Ingrese el nombre del estudiante: ");
         String nombre=sc.nextLine();
-        System.out.println("Ingrese la cantidad de clases a registrar: ");
+        System.out.print("Ingrese la cantidad de clases a registrar: ");
         int n=sc.nextInt();
         boolean[] asistencia =new boolean[n];
         registro.registroAsistencia(n, asistencia);
@@ -41,4 +41,5 @@ public class ControlAsistencia {
     }
     
 }
+
 
